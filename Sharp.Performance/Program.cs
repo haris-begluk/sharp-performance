@@ -6,7 +6,7 @@ string input = Environment.GetCommandLineArgs()[1];
 
 if (Enum.TryParse(input, true, out Benchmark benchmark))
 {
-    if(benchmark.Equals(Benchmark.Iteraton))
+    if(benchmark.Equals(Benchmark.Iteration))
     {
         BenchmarkRunner.Run<Iterations>();
     }
@@ -32,7 +32,7 @@ else
 
 public enum Benchmark
 {
-    Iteraton,
+    Iteration,
     Linq,
     LinqComplex,
     
