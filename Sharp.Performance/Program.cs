@@ -39,21 +39,3 @@ public enum Benchmark
 }
 
 
- 
-
-//var some = Benchs[3];
-
-
-//switch (input)
-//{
-//    case _ when Benchs[0]:
-//        BenchmarkRunner.Run<Iterations>();
-//        break;  
-//    case Benchs[1]:
-//        BenchmarkRunner.Run<LinqBasic>();
-//        break;   
-//    case Benchs[2]:
-//        BenchmarkRunner.Run<LinqBasic>();
-//        break;
-//} 
-
